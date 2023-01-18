@@ -37,7 +37,7 @@ const Activities = ({
     return (
       <div>
         <div>
-          <div className="addActivity">
+          <div className="Container">
             <h1 id="LoggedInToWelcomeToActivities">Activities</h1>
             <form className="AddForm" onSubmit={handleSubmit}>
               <h2 id="LoggedInToAddNewActivity">Add A New Activity!</h2>
@@ -84,7 +84,8 @@ const Activities = ({
         </div>
       </div>
     );
-  } else {
+  } 
+  else {
     return (
       <div>
         <h1>Activities</h1>

@@ -131,7 +131,13 @@ export const Logout = () => {
   localStorage.clear();
 };
 
-// Activities start here
+
+
+
+
+
+
+//                                                    ACTIVITIES START HERE
 
 export async function getActivities() {
   try {

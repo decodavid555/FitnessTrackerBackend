@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { addActivity, getPublicRoutines, getActivities } from "../../api"
 import "./AddActivity.css"
+import "../Activities.css"
 
 const CreateActivity = ({ setActivities, activities }) => {
   const [nameInput, setNameInput] = useState("");
